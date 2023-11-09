@@ -44,9 +44,9 @@ st.plotly_chart(fig)
 
 # Histogram
 st.subheader('3.4 Plotting a Histogram')
-x1 = np.random.randn(200)
+x1 = np.random.randn(200) - 2
 x2 = np.random.randn(200)
-x3 = np.random.randn(200)
+x3 = np.random.randn(200) + 2
 
 hist_data = [x1,x2,x3]
 group_labels = ['Group-1', 'Group-2', 'Group-3']
